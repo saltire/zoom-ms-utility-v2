@@ -1,8 +1,7 @@
 {
-	"name": "react-typescript-boilerplate",
-	"version": "0.0.0",
-	"description": "Boilerplate front-end app with React and TypeScript.",
-	"license": "ISC",
+	"name": "zoom-ms-utility-v2",
+	"description": "Zoom MS-50G utility",
+	"private": true,
 	"scripts": {
 		"build": "webpack --config webpack.prod.js",
 		"watch": "webpack serve --config webpack.dev.js",
@@ -45,7 +44,9 @@
 		"webpack-merge": "^5.10.0"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^2.2.3",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-redux": "^9.1.1"
 	}
 }
