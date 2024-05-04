@@ -24,7 +24,6 @@ export default function App() {
   useEffect(() => {
     if (output) {
       sendSysexFunction(output, ENABLE_PARAMETER_CHANGE);
-      sendSysexFunction(output, 0x29);
     }
   }, [output]);
 
